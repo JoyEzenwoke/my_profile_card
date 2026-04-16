@@ -80,7 +80,7 @@ All required `data-testid` attributes are included:
 ## 🔗 Links
 
 * Live URL: *(https://my-profile-card-git-main-joy-ezenwoke-s-projects.vercel.app/)*
-* GitHub Repo: *(add your repo link)*
+* GitHub Repo: *(https://github.com/JoyEzenwoke/my_profile_card)*
 
 ---
 
