@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<main class="container">
+
+  <article data-testid="test-profile-card" class="profile-card">
+
+    <div class="profile-wrapper">
+
+      <!-- IMAGE -->
+      <figure>
+        <img 
+          src="myimage.jpg" 
+          alt="Profile photo of Joy"
+          data-testid="test-user-avatar"
+        />
+        <figcaption>Profile</figcaption>
+      </figure>
+
+      <!-- CONTENT -->
+      <div class="profile-content">
+
+        <header>
+          <h2 data-testid="test-user-name">Joy Ezenwoke</h2>
+        </header>
+
+        <p data-testid="test-user-bio">
+          Passionate frontend developer focused on building clean, responsive, and accessible user interfaces .
+        </p>
+
+        <!-- TIME -->
+        <p data-testid="test-user-time" aria-live="polite" class="time"></p>
+
+        <!-- SOCIAL LINKS -->
+        <nav data-testid="test-user-social-links">
+          <ul class="social-links">
+            <li>
+              <a href="https://github.com/JoyEzenwoke" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/joy-ezenwoke-" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://x.com/Joy210566370229" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- HOBBIES -->
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding</li>
+            <li>Reading</li>
+            <li>Designing</li>
+          </ul>
+        </section>
+
+        <!-- DISLIKES -->
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Poor UI</li>
+            <li>Slow websites</li>
+            <li>Cluttered design</li>
+          </ul>
+        </section>
+
+      </div>
+
+    </div>
+
+  </article>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
